@@ -68,4 +68,7 @@ const newArray = array.filter(function(item){
 
 const newArray = array.filter(item => item.population > 10);
 
-// .find()
+// other array methods
+    // .find()
+    // .findIndex()
+    // .includes()
