@@ -72,3 +72,26 @@ const newArray = array.filter(item => item.population > 10);
     // .find()
     // .findIndex()
     // .includes()
+
+
+// function to add object to array
+
+const addObjectToArray = function(array, property1, property2, property3) {
+    array.push({property1, property2, property3});
+    return array;
+};
+
+const addObjectToArray = (array, property1, property2, property3) => {
+    array.push({property1, property2, property3});
+    return array;
+};
+
+// loop over array of objects and push properties/data to new array
+
+const newArray = [];
+for (let i = 0; i < array.length - 1; i++) {
+    if (array[i].property === "WHAT YOU'RE SEARCHING FOR") {
+        newArray.push(array[i].property);
+    }
+}
+

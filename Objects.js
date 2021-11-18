@@ -42,3 +42,15 @@ const fruits = {
   //   [orange, 17],
   //   [pear, 54]
   // ]
+
+// function to create an object
+
+const createObject = function(newObject, property1, property2, property3) {
+    newObject = {property1, property2, property3};
+    return newObject;
+}
+
+const createObject = (newObject, property1, property2, property3) => {
+    newObject = {property1, property2, property3};
+    return newObject;
+}
