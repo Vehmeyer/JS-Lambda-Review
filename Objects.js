@@ -43,6 +43,10 @@ const fruits = {
   //   [pear, 54]
   // ]
 
+// spread operator - [...object] => creates copy of object
+
+const newObject = [...object];
+
 // function to create an object
 
 const createObject = function(newObject, property1, property2, property3) {

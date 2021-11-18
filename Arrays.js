@@ -71,8 +71,28 @@ const newArray = array.filter(item => item.population > 10);
 // other array methods
     // .find()
     // .findIndex()
-    // .includes()
+    // .includes() - returns true or false
+        function arrayIncludes(array, string){
+            for(let i = 0; i < array.length; i++){
+              if(array[i].includes(string)){
+                return array[i];
+              }
+            }
+          }
 
+        console.log(arrayIncludes(array, "WHAT YOU'RE SEARCHING FOR"));
+
+        for(let i = 0; i < array.length; i++){
+            console.log(array[i].includes("WHAT YOU'RE SEARCHING FOR"));
+        };
+
+    // .reverse()
+    // .slice()
+    // .splice() - used for removing items at a specific index, 1st # is the index where you want to start removing items, and the second number is how many items you want removed
+
+// spread operator - [...array] => creates copy of array
+
+const newArray = [...array];
 
 // function to add object to array
 
